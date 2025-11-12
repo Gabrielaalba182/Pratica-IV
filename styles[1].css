@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f7fb; color:#222; }
+header { background:#0b5; padding:12px; }
+nav a { margin-right: 12px; color:#012; text-decoration:none; font-weight:600; }
+main { padding:20px; max-width:900px; margin: 18px auto; background:white; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.05); }
+.form-field { margin-bottom: 12px; }
+label { display:block; font-weight:600; margin-bottom:6px; }
+input, select, textarea { width:100%; padding:8px; border:1px solid #ccd; border-radius:4px; }
+.error { border-color:#e04545 !important; }
+.error-message { color:#e04545; font-size:0.9em; margin-top:4px; }
+button { padding:8px 14px; background:#0b5; color:white; border:0; border-radius:6px; cursor:pointer; }
+.toast { position: fixed; bottom:18px; right:18px; background:#333; color:#fff; padding:10px 14px; border-radius:6px; box-shadow:0 6px 20px rgba(0,0,0,0.2); }
