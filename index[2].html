@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🧩 Prática III – Aplicação Web Dinâmica com JavaScript Avançado</title>
+ <link rel="stylesheet" href="./styles.css">
+<script type="module" src="./main.js" type="module"></script>
+
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header"><h1>Prática IV - Acessível</h1><div class="controls"><button id="toggle-theme">🌙 Modo Escuro</button><button id="toggle-contrast">🔳 Alto Contraste</button></div></header>
+  <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+  <header role="banner" class="site-header">
+    <div class="container">
+      <h1 id="brand">Prática III - (adaptado)</h1>
+      <nav role="navigation" aria-label="Menu principal">
+        <ul class="nav" id="main-nav"><li><a href="#/">Home</a></li><li><a href="#/cadastro">Cadastro</a></li><li><a href="#/about">Sobre</a></li></ul>
+      </nav>
+      <div class="controls">
+        <button id="toggle-theme" aria-pressed="false">Modo Escuro</button>
+        <button id="toggle-contrast" aria-pressed="false">Alto Contraste</button>
+      </div>
+    </div>
+  </header>
+  <header>
+    <nav>
+      <a href="#/" data-link>Home</a>
+      <a href="#/cadastro" data-link>Cadastro</a>
+      <a href="#/sobre" data-link>Sobre</a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <template id="toast-template">
+    <div class="toast"></div>
+  </template>
+
+  <script type="module" src="./main.js" type="module"></script>
+  <script src="./app.js" type="module" defer></script>
+<footer role="contentinfo"><p>© 2025 - Projeto adaptado</p></footer>
+<script type="module" src="./acessibilidade.js"></script>
+</body>
+</html>
