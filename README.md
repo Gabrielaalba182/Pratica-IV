@@ -1,4 +1,4 @@
-Projeto: Prática IV - Site adaptado
+Projeto: Prática IV - Site acessível
 
 ## 🧩 Descrição Geral
 Este projeto foi desenvolvido como parte da *Entrega IV – Versionamento, Acessibilidade e Deploy*.  
