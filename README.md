@@ -1,4 +1,4 @@
-Projeto: Instituto Esperança - Site adaptado
+Projeto: Prática IV - Site adaptado
 
 ## 🧩 Descrição Geral
 Este projeto foi desenvolvido como parte da *Entrega IV – Versionamento, Acessibilidade e Deploy*.  
