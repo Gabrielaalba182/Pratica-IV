@@ -7,7 +7,7 @@ O objetivo é consolidar práticas profissionais de **desenvolvimento web**, apl
 ---
 
 ## 🚀 Deploy do Projeto
-🔗 **Acesse o projeto online:** [https://seuusuario.github.io/nome-do-projeto/](https://seuusuario.github.io/nome-do-projeto/)
+🔗 **Acesse o projeto online:** https://gabrielaalba182.github.io/Pratica-IV/
 
 ---
 
